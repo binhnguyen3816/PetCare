@@ -1,9 +1,10 @@
 package com.binh.utils;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface BaseDAO<T, ID> {
-    T findById(ID id);
+    Optional<T> findById(ID id);
 
     List<T> findAll();
 

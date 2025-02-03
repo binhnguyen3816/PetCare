@@ -6,9 +6,8 @@
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.format_sql">true</property>
         <property name="hibernate.transaction.coordinator_class">jta</property>
         <property name="hibernate.transaction.jta.platform">org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform</property>
-        <mapping class="com.binh.team.entity.Team"/>
+        <mapping class="com.axonactive.criteria.entity.Criteria"/>
     </session-factory>
 </hibernate-configuration>
