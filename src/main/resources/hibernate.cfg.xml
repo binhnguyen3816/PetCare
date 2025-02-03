@@ -8,6 +8,6 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.transaction.coordinator_class">jta</property>
         <property name="hibernate.transaction.jta.platform">org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform</property>
-        <mapping class="com.axonactive.criteria.entity.Criteria"/>
+        <mapping class="com.binh.criteria.entity.Criteria"/>
     </session-factory>
 </hibernate-configuration>
